@@ -1,4 +1,6 @@
 module.exports = {
+  preset: '@nuxt/test-utils',
+  // globalSetup: '<rootDir>/tests/setup.js',
   moduleNameMapper: {
     '^@/(.*)$': '<rootDir>/$1',
     '^~/(.*)$': '<rootDir>/$1',
